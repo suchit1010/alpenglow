@@ -1,0 +1,243 @@
+TLC2 Version 2.20 of Day Month 20?? (rev: 5c7ac66)
+Running breadth-first search Model-Checking with fp 76 and seed 336150361747878776 with 12 workers on 12 cores with 3641MB heap and 64MB offheap memory [pid: 27608] (Windows 11 10.0 amd64, Oracle Corporation 20.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file C:\Users\sonis\git\alpenglow\formal-verification\Alpenglow.tla
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\Naturals.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\FiniteSets.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\TLC.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\_TLCTrace.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\Sequences.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\TLCExt.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-6163425524716647944\Integers.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Alpenglow
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module Alpenglow
+Starting... (2025-10-15 21:37:21)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2025-10-15 21:37:22.
+Progress(12) at 2025-10-15 21:37:25: 351,008 states generated (351,008 s/min), 76,076 distinct states found (76,076 ds/min), 51,052 states left on queue.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.5E-7
+  based on the actual fingerprints:  val = 2.4E-8
+The coverage statistics at 2025-10-15 21:37:50 (see https://explain.tlapl.us/module-coverage-statistics for how to interpret the following statistics).
+<currentSlot line 14, col 11 to line 14, col 21 of module Alpenglow>: 3
+<finalized line 14, col 53 to line 14, col 61 of module Alpenglow>: 8
+<blocks line 14, col 24 to line 14, col 29 of module Alpenglow>: 1
+<certificates line 14, col 39 to line 14, col 50 of module Alpenglow>: 206
+<votes line 14, col 32 to line 14, col 36 of module Alpenglow>: 506974
+<Init line 24, col 1 to line 24, col 4 of module Alpenglow>: 1:1
+  line 26, col 17 to line 26, col 83 of module Alpenglow: 1:3
+  |line 26, col 24 to line 26, col 28 of module Alpenglow: 1
+  line 27, col 16 to line 27, col 62 of module Alpenglow: 1:4
+  |line 27, col 23 to line 27, col 32 of module Alpenglow: 1
+  line 28, col 23 to line 28, col 70 of module Alpenglow: 1:3
+  |line 28, col 30 to line 28, col 34 of module Alpenglow: 1
+  line 29, col 8 to line 29, col 21 of module Alpenglow: 1
+  |line 29, col 20 to line 29, col 21 of module Alpenglow: 1:45230
+<ProduceBlock line 31, col 1 to line 31, col 12 of module Alpenglow>: 4:8931
+  line 32, col 8 to line 32, col 29 of module Alpenglow: 8931
+  |line 32, col 8 to line 32, col 18 of module Alpenglow: 839515
+  |line 32, col 23 to line 32, col 29 of module Alpenglow: 839515
+  line 33, col 8 to line 33, col 37 of module Alpenglow: 8931
+  line 34, col 8 to line 34, col 59 of module Alpenglow: 8931
+<Vote line 36, col 1 to line 36, col 20 of module Alpenglow>: 639622:5980128
+  line 37, col 8 to line 37, col 22 of module Alpenglow: 5980128
+  |line 37, col 8 to line 37, col 8 of module Alpenglow: 20148360
+  |line 37, col 12 to line 37, col 22 of module Alpenglow: 20148360
+  line 38, col 8 to line 38, col 18 of module Alpenglow: 26056272
+  |line 38, col 8 to line 38, col 8 of module Alpenglow: 20076144
+  |line 38, col 14 to line 38, col 18 of module Alpenglow: 20076144
+  line 39, col 8 to line 39, col 27 of module Alpenglow: 26056272
+  |line 39, col 8 to line 39, col 18 of module Alpenglow: 20076144
+  |line 39, col 22 to line 39, col 27 of module Alpenglow: 20076144
+  line 40, col 8 to line 40, col 72 of module Alpenglow: 5980128
+  line 41, col 8 to line 41, col 65 of module Alpenglow: 5980128
+<CreateNotarCert line 43, col 1 to line 43, col 18 of module Alpenglow>: 199888:240273
+  line 44, col 8 to line 44, col 22 of module Alpenglow: 240273
+  |line 44, col 8 to line 44, col 8 of module Alpenglow: 2518545
+  |line 44, col 12 to line 44, col 22 of module Alpenglow: 2518545
+  line 45, col 8 to line 45, col 18 of module Alpenglow: 2749791
+  |line 45, col 8 to line 45, col 8 of module Alpenglow: 2509518
+  |line 45, col 14 to line 45, col 18 of module Alpenglow: 2509518
+  line 46, col 8 to line 46, col 40 of module Alpenglow: 2749791
+  |line 46, col 8 to line 46, col 31 of module Alpenglow: 2509518
+  |line 46, col 35 to line 46, col 40 of module Alpenglow: 2509518
+  line 19, col 20 to line 19, col 51 of module Alpenglow: 240273
+  |line 19, col 20 to line 19, col 24 of module Alpenglow: 2162457
+  |line 19, col 29 to line 19, col 51 of module Alpenglow: 2162457
+  line 21, col 32 to line 21, col 51 of module Alpenglow: 2162457
+  line 48, col 24 to line 48, col 33 of module Alpenglow: 2162457
+  |line 47, col 26 to line 47, col 96 of module Alpenglow: 2162457
+  ||line 47, col 46 to line 47, col 95 of module Alpenglow: 8649828
+  |||line 47, col 46 to line 47, col 65 of module Alpenglow: 8649828
+  |||line 47, col 70 to line 47, col 95 of module Alpenglow: 5766552
+  ||line 47, col 33 to line 47, col 42 of module Alpenglow: 2162457
+  line 49, col 17 to line 49, col 43 of module Alpenglow: 240273
+  |line 22, col 29 to line 22, col 64 of module Alpenglow: 240273
+  |line 49, col 33 to line 49, col 42 of module Alpenglow: 240273
+  ||line 47, col 26 to line 47, col 96 of module Alpenglow: 240273
+  |||line 47, col 46 to line 47, col 95 of module Alpenglow: 961092
+  ||||line 47, col 46 to line 47, col 65 of module Alpenglow: 961092
+  ||||line 47, col 70 to line 47, col 95 of module Alpenglow: 854304
+  |||line 47, col 33 to line 47, col 42 of module Alpenglow: 240273
+  line 50, col 22 to line 52, col 80 of module Alpenglow: 26697
+  |line 50, col 38 to line 52, col 80 of module Alpenglow: 26697
+  ||line 50, col 39 to line 50, col 50 of module Alpenglow: 26697
+  ||line 51, col 24 to line 51, col 75 of module Alpenglow: 26697
+  ||line 51, col 40 to line 51, col 75 of module Alpenglow: 26697
+  |||line 51, col 53 to line 51, col 62 of module Alpenglow: 26697
+  ||||line 47, col 26 to line 47, col 96 of module Alpenglow: 26697
+  |||||line 47, col 46 to line 47, col 95 of module Alpenglow: 106788
+  |||||line 47, col 33 to line 47, col 42 of module Alpenglow: 26697
+  |||line 51, col 65 to line 51, col 74 of module Alpenglow: 26697
+  ||line 52, col 24 to line 52, col 79 of module Alpenglow: 26697
+  ||line 52, col 44 to line 52, col 79 of module Alpenglow: 26697
+  |||line 52, col 57 to line 52, col 66 of module Alpenglow: 26697
+  ||||line 47, col 26 to line 47, col 96 of module Alpenglow: 26697
+  |||||line 47, col 46 to line 47, col 95 of module Alpenglow: 106788
+  |||||line 47, col 33 to line 47, col 42 of module Alpenglow: 26697
+  |||line 52, col 69 to line 52, col 78 of module Alpenglow: 26697
+  line 53, col 22 to line 53, col 54 of module Alpenglow: 26697
+  |line 53, col 35 to line 53, col 54 of module Alpenglow: 26697
+  ||line 53, col 35 to line 53, col 43 of module Alpenglow: 26697
+  ||line 53, col 52 to line 53, col 54 of module Alpenglow: 26697:87310
+  |||line 53, col 53 to line 53, col 53 of module Alpenglow: 26697
+  line 54, col 22 to line 55, col 76 of module Alpenglow: 213576
+  |line 54, col 38 to line 55, col 76 of module Alpenglow: 213576
+  ||line 54, col 39 to line 54, col 50 of module Alpenglow: 213576
+  ||line 55, col 24 to line 55, col 75 of module Alpenglow: 213576
+  ||line 55, col 40 to line 55, col 75 of module Alpenglow: 213576
+  |||line 55, col 53 to line 55, col 62 of module Alpenglow: 213576
+  ||||line 47, col 26 to line 47, col 96 of module Alpenglow: 213576
+  |||||line 47, col 46 to line 47, col 95 of module Alpenglow: 854304
+  ||||||line 47, col 46 to line 47, col 65 of module Alpenglow: 854304
+  ||||||line 47, col 70 to line 47, col 95 of module Alpenglow: 747516
+  |||||line 47, col 33 to line 47, col 42 of module Alpenglow: 213576
+  |||line 55, col 65 to line 55, col 74 of module Alpenglow: 213576
+  line 56, col 22 to line 56, col 40 of module Alpenglow: 213576
+  line 57, col 8 to line 57, col 47 of module Alpenglow: 240273
+<CreateFinalCert line 59, col 1 to line 59, col 18 of module Alpenglow>: 0:0
+  line 60, col 8 to line 60, col 22 of module Alpenglow: 2518545
+  line 61, col 8 to line 61, col 18 of module Alpenglow: 2509518
+  line 62, col 8 to line 62, col 40 of module Alpenglow: 2509518
+  line 63, col 8 to line 63, col 40 of module Alpenglow: 347061
+  line 64, col 8 to line 64, col 25 of module Alpenglow: 347061
+  line 21, col 23 to line 21, col 52 of module Alpenglow: 320364
+  line 66, col 24 to line 66, col 33 of module Alpenglow: 320364
+  |line 65, col 26 to line 65, col 96 of module Alpenglow: 320364
+  ||line 65, col 46 to line 65, col 95 of module Alpenglow: 1281456
+  |||line 65, col 46 to line 65, col 65 of module Alpenglow: 1281456
+  |||line 65, col 70 to line 65, col 95 of module Alpenglow: 1174668
+  ||line 65, col 33 to line 65, col 42 of module Alpenglow: 320364
+  line 67, col 14 to line 68, col 68 of module Alpenglow: 0
+  line 69, col 14 to line 69, col 46 of module Alpenglow: 0
+  line 70, col 8 to line 70, col 47 of module Alpenglow: 0
+<NoConflictingFinalizations line 82, col 1 to line 82, col 26 of module Alpenglow>
+  line 83, col 5 to line 88, col 46 of module Alpenglow: 839515
+  |line 84, col 9 to line 88, col 46 of module Alpenglow: 26697
+  |line 83, col 14 to line 83, col 22 of module Alpenglow: 839515
+<FastFinalImpliesNotar line 90, col 1 to line 90, col 21 of module Alpenglow>
+  line 91, col 5 to line 92, col 82 of module Alpenglow: 839515
+  |line 92, col 9 to line 92, col 82 of module Alpenglow: 2518545
+  ||line 92, col 9 to line 92, col 45 of module Alpenglow: 2518545
+  ||line 92, col 50 to line 92, col 82 of module Alpenglow: 26697
+  |line 91, col 14 to line 91, col 18 of module Alpenglow: 839515
+<FinalRequiresNotar line 94, col 1 to line 94, col 18 of module Alpenglow>
+  line 95, col 5 to line 96, col 78 of module Alpenglow: 839515
+  |line 96, col 9 to line 96, col 78 of module Alpenglow: 2518545
+  |line 95, col 14 to line 95, col 18 of module Alpenglow: 839515
+<ConsistentCertificates line 98, col 1 to line 98, col 22 of module Alpenglow>
+  line 99, col 5 to line 103, col 74 of module Alpenglow: 839515
+  |line 100, col 9 to line 103, col 74 of module Alpenglow: 2518545
+  ||line 100, col 13 to line 101, col 77 of module Alpenglow: 2518545
+  |||line 100, col 13 to line 100, col 49 of module Alpenglow: 2518545
+  |||line 101, col 13 to line 101, col 77 of module Alpenglow: 26697
+  ||line 102, col 13 to line 103, col 73 of module Alpenglow: 2518545
+  |line 99, col 14 to line 99, col 18 of module Alpenglow: 839515
+<CertificateUniqueness line 115, col 1 to line 115, col 21 of module Alpenglow>
+  line 116, col 5 to line 118, col 75 of module Alpenglow: 839515
+  |line 117, col 9 to line 118, col 75 of module Alpenglow: 7555635
+  ||line 117, col 9 to line 117, col 42 of module Alpenglow: 7555635
+  ||line 118, col 13 to line 118, col 75 of module Alpenglow: 373758
+  |||line 118, col 31 to line 118, col 75 of module Alpenglow: 1121274
+  ||||line 118, col 31 to line 118, col 36 of module Alpenglow: 1121274
+  ||||line 118, col 41 to line 118, col 75 of module Alpenglow: 747516
+  |||line 118, col 23 to line 118, col 27 of module Alpenglow: 373758
+  |line 116, col 14 to line 116, col 18 of module Alpenglow: 839515
+  |line 116, col 34 to line 116, col 41 of module Alpenglow: 839515
+<StakeThresholdCorrectness line 121, col 1 to line 121, col 25 of module Alpenglow>
+  line 122, col 5 to line 128, col 56 of module Alpenglow: 839515
+  |line 123, col 9 to line 128, col 56 of module Alpenglow: 2518545
+  ||line 123, col 13 to line 124, col 55 of module Alpenglow: 2518545
+  |||line 123, col 13 to line 123, col 45 of module Alpenglow: 2518545
+  |||line 124, col 13 to line 124, col 55 of module Alpenglow: 347061
+  ||line 125, col 13 to line 126, col 65 of module Alpenglow: 2518545
+  |||line 125, col 13 to line 125, col 49 of module Alpenglow: 2518545
+  |||line 126, col 13 to line 126, col 65 of module Alpenglow: 26697
+  ||line 127, col 13 to line 128, col 55 of module Alpenglow: 2518545
+  |line 122, col 14 to line 122, col 18 of module Alpenglow: 839515
+<ChainConsistency line 131, col 1 to line 131, col 16 of module Alpenglow>
+  line 132, col 5 to line 134, col 38 of module Alpenglow: 839515
+  |line 133, col 9 to line 134, col 38 of module Alpenglow: 7555635
+  ||line 133, col 9 to line 133, col 55 of module Alpenglow: 7555635
+  |||line 133, col 9 to line 133, col 44 of module Alpenglow: 7555635
+  ||||line 133, col 9 to line 133, col 24 of module Alpenglow: 7555635
+  ||||line 133, col 29 to line 133, col 44 of module Alpenglow: 80091
+  |||line 133, col 49 to line 133, col 55 of module Alpenglow: 27263
+  ||line 134, col 13 to line 134, col 38 of module Alpenglow: 283
+  |line 132, col 19 to line 132, col 23 of module Alpenglow: 839515
+<NoEquivocation line 140, col 1 to line 140, col 14 of module Alpenglow>
+  line 141, col 5 to line 144, col 41 of module Alpenglow: 839515
+  |line 142, col 9 to line 144, col 41 of module Alpenglow: 10074180
+  ||line 142, col 9 to line 142, col 28 of module Alpenglow: 10074180
+  ||line 143, col 13 to line 144, col 41 of module Alpenglow: 7048008
+  |||line 143, col 16 to line 143, col 41 of module Alpenglow: 7048008
+  |||line 144, col 16 to line 144, col 41 of module Alpenglow: 2990064
+  |line 141, col 14 to line 141, col 23 of module Alpenglow: 839515
+  |line 141, col 32 to line 141, col 36 of module Alpenglow: 839515
+<FastPathRequiresStrongQuorum line 147, col 1 to line 147, col 28 of module Alpenglow>
+  line 148, col 5 to line 150, col 77 of module Alpenglow: 839515
+  |line 149, col 9 to line 150, col 77 of module Alpenglow: 2518545
+  ||line 149, col 9 to line 149, col 45 of module Alpenglow: 2518545
+  ||line 150, col 13 to line 150, col 77 of module Alpenglow: 26697
+  |line 148, col 14 to line 148, col 18 of module Alpenglow: 839515
+<FinalizedHaveValidCerts line 153, col 1 to line 153, col 23 of module Alpenglow>
+  line 154, col 5 to line 156, col 83 of module Alpenglow: 839515
+  |line 155, col 9 to line 156, col 83 of module Alpenglow: 26697
+  |line 154, col 14 to line 154, col 22 of module Alpenglow: 839515
+<BlocksExistBeforeVoting line 159, col 1 to line 159, col 23 of module Alpenglow>
+  line 160, col 5 to line 161, col 47 of module Alpenglow: 839515
+  |line 161, col 9 to line 161, col 47 of module Alpenglow: 10074180
+  ||line 161, col 9 to line 161, col 28 of module Alpenglow: 10074180
+  ||line 161, col 33 to line 161, col 47 of module Alpenglow: 7048008
+  |line 160, col 14 to line 160, col 23 of module Alpenglow: 839515
+  |line 160, col 32 to line 160, col 36 of module Alpenglow: 839515
+<CertificatesRequireVotes line 164, col 1 to line 164, col 24 of module Alpenglow>
+  line 165, col 5 to line 169, col 82 of module Alpenglow: 839515
+  |line 166, col 9 to line 169, col 82 of module Alpenglow: 2518545
+  ||line 166, col 9 to line 166, col 41 of module Alpenglow: 2518545
+  ||line 167, col 13 to line 169, col 82 of module Alpenglow: 347061
+  |||line 168, col 17 to line 169, col 82 of module Alpenglow: 4485096
+  ||||line 168, col 20 to line 168, col 31 of module Alpenglow: 4485096
+  ||||line 169, col 20 to line 169, col 82 of module Alpenglow: 667425
+  |||||line 169, col 33 to line 169, col 82 of module Alpenglow: 1575123
+  ||||||line 169, col 33 to line 169, col 52 of module Alpenglow: 1575123
+  ||||||line 169, col 57 to line 169, col 82 of module Alpenglow: 1414941
+  |||||line 169, col 29 to line 169, col 29 of module Alpenglow: 667425
+  |||line 167, col 22 to line 167, col 38 of module Alpenglow: 347061:2242548
+  ||||line 167, col 29 to line 167, col 38 of module Alpenglow: 347061
+  |line 165, col 14 to line 165, col 18 of module Alpenglow: 839515
+End of statistics.
+6229333 states generated, 839515 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 19.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 24 and the 95th percentile is 4).
+Finished in 29s at (2025-10-15 21:37:50)

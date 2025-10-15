@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "config_name": "core_safety",
+      "status": "success",
+      "start_time": "2025-10-15T21:37:20.301390",
+      "end_time": "2025-10-15T21:37:50.938588",
+      "duration_seconds": 30.637198,
+      "states_generated": 6229333,
+      "states_distinct": 6229333,
+      "search_depth": 0,
+      "errors_found": 0,
+      "error_messages": [],
+      "warnings": [],
+      "memory_mb": 0.0,
+      "cpu_percent": 0.0,
+      "tlc_version": "Unknown",
+      "spec_checksum": "9a4c017bb8550bcd",
+      "log_file": "logs\\core_safety_20251015_213720.log"
+    }
+  ],
+  "summary": {
+    "total_runs": 1,
+    "successful": 1,
+    "failed": 0,
+    "total_states_verified": 6229333,
+    "total_time_seconds": 30.637198,
+    "last_updated": "2025-10-15T21:37:51.223126"
+  }
+}
