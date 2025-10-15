@@ -1,0 +1,6 @@
+[2025-10-15T22:08:37.600499] [INFO] Running verification: core_safety
+[2025-10-15T22:08:37.605605] [INFO] Starting verification: core_safety
+[2025-10-15T22:08:37.607604] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC.cfg -deadlock -coverage 1 Alpenglow.tla"
+}

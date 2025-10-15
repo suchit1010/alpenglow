@@ -1,0 +1,25 @@
+[2025-10-15T21:43:04.737480] [INFO] Running verification: liveness_properties
+[2025-10-15T21:43:04.753253] [INFO] Starting verification: liveness_properties
+[2025-10-15T21:43:04.756788] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_Liveness.cfg -deadlock -coverage 1 LivenessAlpenglow.tla"
+}
+[2025-10-15T21:47:34.423092] [INFO] Running verification: byzantine_adversary
+[2025-10-15T21:47:34.425082] [INFO] Starting verification: byzantine_adversary
+[2025-10-15T21:47:34.445803] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_Byzantine.cfg -deadlock -coverage 1 ByzantineAlpenglow.tla -timeout 72000"
+}
+[2025-10-15T21:47:58.737333] [INFO] Running verification: byzantine_adversary
+[2025-10-15T21:47:58.739012] [INFO] Starting verification: byzantine_adversary
+[2025-10-15T21:47:58.740787] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_Byzantine.cfg -deadlock -coverage 1 ByzantineAlpenglow.tla -timeout 72000"
+}
+[2025-10-15T21:48:47.647381] [INFO] Running verification: rotor_propagation
+[2025-10-15T21:48:47.649164] [INFO] Starting verification: rotor_propagation
+[2025-10-15T21:48:47.659092] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config RotorMC.cfg -deadlock -coverage 1 Rotor.tla"
+}
+[2025-10-15T21:49:28.064576] [INFO] Showing verification history

@@ -1,0 +1,79 @@
+TLC2 Version 2.20 of Day Month 20?? (rev: 5c7ac66)
+Running breadth-first search Model-Checking with fp 3 and seed -2180369810536571836 with 12 workers on 12 cores with 3641MB heap and 64MB offheap memory [pid: 32020] (Windows 11 10.0 amd64, Oracle Corporation 20.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file C:\Users\sonis\git\alpenglow\formal-verification\Rotor.tla
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\Naturals.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\FiniteSets.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\TLC.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\_TLCTrace.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\Sequences.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\TLCExt.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file C:\Users\sonis\AppData\Local\Temp\tlc-4340287718984242037\Integers.tla (jar:file:/C:/Users/sonis/git/alpenglow/formal-verification/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module Rotor
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module Rotor
+Starting... (2025-10-15 21:48:48)
+Warning: Temporal properties (PROPERTY or PROPERTIES) are being verified without a fairness constraint conjoined to the behavior specification Spec defined at line 70, col 1 to line 70, col 29 of module Rotor. This may lead to trivial counterexamples in which the system exhibits infinite stuttering immediately after the initial state. To avoid this, it is recommended to conjoin a suitable fairness constraint to Spec (compare Chapter 8, page 87ff of Specifying Systems at https://lamport.azurewebsites.net/tla/book.html).
+(Use the -nowarning option to disable this warning.)
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2025-10-15 21:48:49.
+Checking temporal properties for the current state space with 14439 total distinct states at (2025-10-15 21:48:52)
+Finished checking temporal properties in 00s at 2025-10-15 21:48:52
+Progress(10) at 2025-10-15 21:48:52: 164,766 states generated (164,766 s/min), 27,672 distinct states found (27,672 ds/min), 13,228 states left on queue.
+Progress(17) at 2025-10-15 21:48:57: 589,825 states generated, 65,536 distinct states found, 0 states left on queue.
+Checking temporal properties for the complete state space with 65536 total distinct states at (2025-10-15 21:48:57)
+Finished checking temporal properties in 02s at 2025-10-15 21:48:59
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-9
+  based on the actual fingerprints:  val = 1.7E-10
+The coverage statistics at 2025-10-15 21:48:59 (see https://explain.tlapl.us/module-coverage-statistics for how to interpret the following statistics).
+<shredLocations line 28, col 5 to line 28, col 18 of module Rotor>: 64896
+<shreds line 27, col 5 to line 27, col 10 of module Rotor>: 1
+<relays line 29, col 5 to line 29, col 10 of module Rotor>: 1
+<Init line 33, col 1 to line 33, col 4 of module Rotor>: 1:1
+  line 34, col 17 to line 34, col 108 of module Rotor: 1:2
+  |line 34, col 27 to line 34, col 31 of module Rotor: 1
+  line 35, col 25 to line 35, col 81 of module Rotor: 1:2
+  |line 35, col 35 to line 35, col 39 of module Rotor: 1
+  line 36, col 8 to line 36, col 112 of module Rotor: 1
+  |line 36, col 17 to line 36, col 112 of module Rotor: 1:2
+  ||line 36, col 27 to line 36, col 31 of module Rotor: 1
+<DisseminateShred line 54, col 1 to line 54, col 34 of module Rotor (57 9 63 39)>: 65535:524288
+  line 57, col 12 to line 57, col 48 of module Rotor: 1572864
+  |line 57, col 12 to line 57, col 43 of module Rotor: 1048576
+  |line 57, col 47 to line 57, col 48 of module Rotor: 1048576
+  line 58, col 15 to line 58, col 28 of module Rotor: 524288
+  line 60, col 17 to line 60, col 101 of module Rotor: 524288
+  line 62, col 17 to line 62, col 101 of module Rotor: 0
+  line 63, col 12 to line 63, col 39 of module Rotor: 524288
+<Next line 65, col 1 to line 65, col 4 of module Rotor (68 8 68 21)>: 0:65536
+  line 68, col 8 to line 68, col 21 of module Rotor: 65536
+<TypeOK line 75, col 1 to line 75, col 6 of module Rotor>
+  line 76, col 5 to line 78, col 57 of module Rotor: 65536
+<ValidRelays line 87, col 1 to line 87, col 11 of module Rotor>
+  line 88, col 5 to line 89, col 47 of module Rotor: 65536
+  |line 89, col 9 to line 89, col 47 of module Rotor: 1048576
+  |line 88, col 17 to line 88, col 21 of module Rotor: 65536
+  |line 88, col 39 to line 88, col 50 of module Rotor: 65536
+<OnceDeliveredNeverLost line 92, col 1 to line 92, col 22 of module Rotor>
+  line 93, col 5 to line 95, col 67 of module Rotor: 65536
+  |line 94, col 9 to line 95, col 67 of module Rotor: 1048576
+  ||line 94, col 10 to line 94, col 46 of module Rotor: 1048576
+  ||line 95, col 14 to line 95, col 66 of module Rotor: 524288
+  |line 93, col 17 to line 93, col 21 of module Rotor: 65536
+  |line 93, col 39 to line 93, col 50 of module Rotor: 65536
+End of statistics.
+589825 states generated, 65536 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 17.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 16 and the 95th percentile is 4).
+Finished in 11s at (2025-10-15 21:48:59)

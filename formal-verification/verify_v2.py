@@ -259,8 +259,9 @@ class VerificationRunner:
             config.spec_file
         ]
         
-        if config.timeout_seconds:
-            cmd.extend(["-timeout", str(config.timeout_seconds)])
+        # Note: -timeout option not supported in TLC 2.20
+        # if config.timeout_seconds:
+        #     cmd.extend(["-timeout", str(config.timeout_seconds)])
         
         self.logger.log(LogLevel.DEBUG, "TLC Command", {"cmd": " ".join(cmd)})
         

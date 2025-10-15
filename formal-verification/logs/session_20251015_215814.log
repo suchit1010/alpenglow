@@ -1,0 +1,26 @@
+[2025-10-15T21:58:23.772788] [INFO] Generating comprehensive report
+[2025-10-15T21:59:34.778082] [INFO] Running verification: edge_case_quorum
+[2025-10-15T21:59:34.779836] [INFO] Starting verification: edge_case_quorum
+[2025-10-15T21:59:34.784600] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_edge_quorum_ok.cfg -deadlock -coverage 1 Alpenglow.tla"
+}
+[2025-10-15T21:59:54.143467] [INFO] Running verification: edge_case_minimal
+[2025-10-15T21:59:54.146898] [INFO] Starting verification: edge_case_minimal
+[2025-10-15T21:59:54.147819] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_edge_minimal_ok.cfg -deadlock -coverage 1 Alpenglow.tla"
+}
+[2025-10-15T22:00:35.198503] [INFO] Showing verification history
+[2025-10-15T22:00:47.522735] [INFO] Running verification: edge_case_minimal
+[2025-10-15T22:00:47.524758] [INFO] Starting verification: edge_case_minimal
+[2025-10-15T22:00:47.526815] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_edge_minimal_ok.cfg -deadlock -coverage 1 Alpenglow.tla"
+}
+[2025-10-15T22:04:37.961751] [INFO] Running verification: edge_case_minimal
+[2025-10-15T22:04:37.961751] [INFO] Starting verification: edge_case_minimal
+[2025-10-15T22:04:37.965891] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_edge_minimal_ok.cfg -deadlock -coverage 1 Alpenglow.tla"
+}

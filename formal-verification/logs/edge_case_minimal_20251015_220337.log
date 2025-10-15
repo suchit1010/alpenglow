@@ -1,0 +1,9 @@
+TLC2 Version 2.20 of Day Month 20?? (rev: 5c7ac66)
+Running breadth-first search Model-Checking with fp 123 and seed 5838637879386235480 with 12 workers on 12 cores with 3641MB heap and 64MB offheap memory [pid: 31704] (Windows 11 10.0 amd64, Oracle Corporation 20.0.1 x86_64, MSBDiskFPSet, DiskStateQueue).
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a tlc2.tool.ConfigFileException
+: TLC found an error in the configuration file at line 4
+It was expecting ], but did not find it.
+Finished in 00s at (2025-10-15 22:03:38)

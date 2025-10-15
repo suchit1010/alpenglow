@@ -1,0 +1,6 @@
+[2025-10-15T21:54:23.306152] [INFO] Running verification: byzantine_adversary
+[2025-10-15T21:54:23.313596] [INFO] Starting verification: byzantine_adversary
+[2025-10-15T21:54:23.316620] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_Byzantine.cfg -deadlock -coverage 1 ByzantineAlpenglow.tla"
+}

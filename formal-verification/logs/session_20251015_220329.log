@@ -1,0 +1,6 @@
+[2025-10-15T22:03:37.678856] [INFO] Running verification: edge_case_minimal
+[2025-10-15T22:03:37.684010] [INFO] Starting verification: edge_case_minimal
+[2025-10-15T22:03:37.686700] [DEBUG] TLC Command
+  Context: {
+  "cmd": "java -XX:+UseParallelGC -Xmx4G -Xms1G -jar C:\\Users\\sonis\\git\\alpenglow\\formal-verification\\tla2tools.jar -workers auto -config MC_edge_minimal_ok.cfg -deadlock -coverage 1 Alpenglow.tla"
+}
